@@ -30,6 +30,14 @@ npm start
 ----
 
 
+== Docker 
+
+
+----
+docker build -t lishan-webconsole:latest .
+docker run --publish 8080:8080 lishan-webconsole
+----
+
 == Reference
 
 * https://lishan.eclipseprojects.io/#/about
