@@ -4,12 +4,12 @@
       "eslint"
     ],
     "*.js": [
-      "eslint",
-      "prettier --write"
+      "prettier --write",
+      "eslint"
     ],
     "*.html": [
-      "eslint",
-      "prettier --write"
+      "prettier --write",
+      "eslint"
     ],
     "*.scss": "prettier --write"
   }

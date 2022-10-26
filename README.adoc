@@ -17,26 +17,25 @@ What is OMA LWM2M ? Object and Resource Registry.
 
 == How to 
 
-
+.Create Application
 ----
 npx -p @angular/cli ng new lishan-webconsole
 ng analytics disable
 ----
 
-
+.Install package and run 
 ----
 npm i
 npm start
 ----
 
 
-== Docker 
-
+== Material Design 
 
 ----
-docker build -t lishan-webconsole:latest .
-docker run --publish 8080:8080 lishan-webconsole
+ng add @angular/material
 ----
+
 
 == Reference
 
